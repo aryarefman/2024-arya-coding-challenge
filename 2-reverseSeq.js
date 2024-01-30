@@ -24,6 +24,6 @@
 // const reverseSeq = n => [...Array(n)].fill().map((e, i)=> i + 1 ).reverse();
 
 
-const reverseSeq = n => [...Array(n)].fill().map((e, i)=> n - i);
+const reverseSeq = n => Array(n).fill().map((e, i)=> n - i);
 
 console.log(reverseSeq(5));
